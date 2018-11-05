@@ -1,0 +1,43 @@
+/* Change font and size of all elements */
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+  
+  body {
+    background-color: #ffa500;
+  }
+  
+  /* Change size of title of game */
+  h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  /* Button styling */
+  .btn {
+    text-align: center;
+  }
+  
+  button {
+    border: none;
+    color: black;
+    background-color:#ffa500;
+    margin: 5px;
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    background-color #ffa500;
+    cursor: pointer;
+  }
+  
+  /* Scores styling */
+  h4 {
+    display: inline-block;
+    padding-top: 20px;
+  }
+  
+  .scores {
+    text-align: center;
+  }
