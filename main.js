@@ -48,16 +48,16 @@ btn.onclick = () => {
 
 //Checks score and ends game if either player or computer reaches 5 points
 var check = () => {
-  if (playerScore == 5) {
+  if (playerScore == 10) {
     document.getElementById("rock").disabled = true;
     document.getElementById("paper").disabled = true;
     document.getElementById("scissors").disabled = true;
-    content.textContent = "YOU WIN! Refresh the page to play again!";
-  } else if (computerScore == 5) {
+    content.textContent = "YOU WIN! Hit start again button to play again!";
+  } else if (computerScore == 10) {
     document.getElementById("rock").disabled = true;
     document.getElementById("paper").disabled = true;
     document.getElementById("scissors").disabled = true;
-    content.textContent = "YOU LOSE! Refresh the page to play again!";
+    content.textContent = "YOU LOSE! Hit start again button to play again!";
   }
 };
 
